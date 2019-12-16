@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href = "contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcom to Joh`s Kitchenware</h2>
+        <p>
+         Jon`s Kitchenware has the best quality kitchenware in town. everything is made in the USA and field tested for strength and durability
+        </p>
+          
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/aa6fb821-85c2-43f4-b325-ae7534aa7337%2FKitchen.jpg?v=1575296565985"
+        />
+        <div>
+          <ul>
+            <li>Flex head</li>
+            <li>multi head</li>
+            <li>Power kitchenware</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>First purchase is 10% off</h4>
+        <p>
+          On your first purchase at Jon`s kitchenware you will recieve a 10%  discount on your entire purchase.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Buy one, get one attachment free</h4>
+        <p>
+          When you buy one of our multi head kitchen tools you recive a free head 
+        </p>
+        <button>Learn More</button>
+      </div>
+  </div>
+     <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+    
+  </body>
+</html>
